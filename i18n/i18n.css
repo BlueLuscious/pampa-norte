@@ -1,0 +1,47 @@
+/* i18n */
+.change_language_box {
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    z-index: 50;
+    transition: all .5s ease;
+
+    & select {
+        padding: 20%;
+        color: white;
+        background-color: #3c3c3c;
+        border-radius: .25rem;
+        cursor: pointer;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+#id_change_language {
+    & option {
+        cursor: pointer;
+    }
+}
+
+/* responsive */
+@media screen {
+    @media (max-width: 1024px) {
+        .change_language_box {
+            right: 2.5%;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .change_language_box {
+            right: 5%;
+        }
+    }
+
+    @media (max-width: 430px) {
+        .change_language_box {
+            right: 7.5%;
+        }
+    }
+}
