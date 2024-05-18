@@ -1,4 +1,14 @@
 /* Logos */
+.logo_center {
+    width: 100%;
+
+    & img {
+        width: 30%;
+        border: solid 1rem #ffffff;
+        border-radius:  100%;
+    }
+}
+
 .logo_left_side,
 .logo_right_side {
     position: absolute;
@@ -33,8 +43,12 @@
 
 /* BG Images */
 .background-image-0 {
-    background-image: url(/images/sections/section-0.webp);
+    background-image: url(/images/sections/section-0-alt.webp);
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .background-image-1 {
