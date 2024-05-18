@@ -68,6 +68,42 @@
         }
     }
 
+    @media (max-width: 1023px) {
+        .before_footer {
+            flex-direction: column;
+            gap: 2rem;
+        
+            & .meat_group {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                justify-items: center;
+                width: 75%;
+                gap: 5rem;
+
+                &.block {
+                    display: none;
+                }
+            }
+        
+            & .groups {
+                width: 80%;
+        
+                & .seals_group {
+                    flex-direction: row-reverse;
+                }
+                & .fridge_group {
+                    flex-direction: row;
+                }
+            }
+        }
+
+        .meat_2 {      
+            &.hidden {
+                display: block;
+            }
+        }
+    }
+
     @media (max-width: 820px) {
         .content-box {
             padding: 5%;
@@ -138,6 +174,20 @@
         .logo_center {
             & img {
                 width: 80%;
+            }
+        }
+    }
+
+    @media (max-width: 550px) {
+        .before_footer {
+            & .groups {
+                & .seals_group {
+                    flex-direction: column-reverse;
+                }
+
+                & .fridge_group {
+                    flex-direction: column-reverse;
+                }
             }
         }
     }
