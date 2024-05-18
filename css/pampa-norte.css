@@ -1,0 +1,227 @@
+/* Logos */
+.logo_center {
+    width: 100%;
+
+    & img {
+        width: 30%;
+        border: solid 1rem #ffffff;
+        border-radius:  100%;
+    }
+}
+
+.logo_left_side,
+.logo_right_side {
+    position: absolute;
+    z-index: 1000px;
+}
+
+.logo_left_side {
+    top: 2%;
+    left: 1%;
+
+    &.alt {
+        top: 10%;
+        left: 10%;
+    }
+}
+
+.logo_right_side {
+    top: 10%;
+    right: 10%;
+}
+
+.pnag_logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 1rem;
+}
+
+.batc_logo {
+    width: 300px;
+    height: 250px;
+}
+
+/* BG Images */
+.background-image-0 {
+    background-image: url(/images/sections/section-0-alt.webp);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-image-1 {
+    background-image: url(/images/sections/section-1.webp);
+}
+
+.background-image-2 {
+    background-image: url(/images/sections/section-2.webp);
+}
+
+.background-image-3 {
+    background-image: url(/images/sections/section-3.webp);
+}
+
+.background-image-4 {
+    background-image: url(/images/sections/section-4.webp);
+}
+
+.background-image-5 {
+    background-image: url(/images/sections/section-5.webp);
+}
+
+.background-image-6 {
+    background-image: url(/images/sections/section-6.webp);
+}
+
+.background-image-8 {
+    background-image: url(/images/sections/section-8.jpg);
+}
+
+.background-image-0, .background-image-1,
+.background-image-2, .background-image-3,
+.background-image-4, .background-image-5,
+.background-image-6, .background-image-8 {
+    background-size: cover;
+}
+
+/* Text Fields */
+.content-box {
+    position: absolute;
+    height: auto;
+    padding: 1%;
+    opacity: 0;
+    border-radius: 0.5rem;
+    background-color: #ffffff85;
+    text-align: left;
+  
+    &.one {
+        left: 3%;
+        bottom: 5%;
+        width: 50%;
+        padding: 2rem;
+    }
+  
+    &.two {
+        right: 7%;
+        top: 5%;
+        width: 90%;
+        padding: 2rem;
+    }
+  
+    &.three {
+        left: 3%;
+        top: 5%;
+        width: 90%;
+        padding: 2rem;
+    }
+  
+    &.four {
+        left: 3%;
+        bottom: 5%;
+        width: 75%;
+        padding: 2rem;
+    }
+  
+    &.five {
+        right: 7%;
+        top: 5%;
+        width: 70%;
+        padding: 2rem;
+    }
+
+    &.six {
+        right: 7%;
+        bottom: 3%;
+        width: 90%;
+    }
+}
+
+/* Footer */
+.before_footer {
+    position: absolute;
+    left: 0%;
+    top: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    & .meat_group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+    }
+
+    & .groups {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        width: 40%;
+
+        & .seals_group,
+        & .fridge_group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2.5rem
+        }
+    }
+}
+
+.meat_1,
+.meat_2 {
+    width: 65%;
+
+    & img {
+        width: 100%;
+    }
+}
+
+.meat_2.hidden {
+    display: none;
+}
+
+.seals_1, .seals_2,
+.fridge_1, .fridge_2 {
+    width: 60%;
+
+    & img {
+        width: 100%;
+    }
+}
+
+.contact {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+
+    & .contact_box {
+        height: auto;
+        padding: 1%;
+        border-radius: 0.5rem;
+        background-color: #ffffff85;
+
+        &.left {
+            text-align: left; 
+        }
+
+        &.right { 
+            text-align: right; 
+        }
+
+        & #pn_phone_number,
+        & #ba_phone_number {
+            cursor: pointer;
+        }
+    }
+
+    & .contact_text{
+        font-weight: bold;
+    }
+}
