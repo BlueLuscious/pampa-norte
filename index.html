@@ -7,6 +7,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>Pampa Norte</title>
+  
+  <link rel="shortcut icon" href="/images/icons/favicon.ico" type="image/x-icon">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -14,6 +16,7 @@
 
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
   <link rel="stylesheet" type="text/css" href="css/pampa-norte.css" />
+  <link rel="stylesheet" type="text/css" href="css/responsive.css" />
   <link rel="stylesheet" type="text/css" href="i18n/i18n.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,16 +52,16 @@
       </div>
     </div>
     
-    <div class="section background-image-0"> <!-- Section 0 -->
+    <div class="section background-image-0">
     </div>
 
-    <div class="section background-image-1"> <!-- Section 1 -->
+    <div class="section background-image-1">
       <div class="logo_left_side">
         <img src="images/logos/PNAG_Logo.jpg" class="pnag_logo" alt="Logo">
       </div>
     </div>
 
-    <div class="section background-image-2"> <!-- Section 2 -->
+    <div class="section background-image-2">
       <div class="content-box one">
         <span class="font-size-textfield work-sans-textfield" data-translate="textfield_1">
           At Pampa Norte Argentine Beef, we are dedicated to the breeding and sale of superior quality 
@@ -68,7 +71,7 @@
         </span>
       </div>
     </div>
-    <div class="section background-image-3"> <!-- Section 3 -->
+    <div class="section background-image-3">
       <div class="content-box two">
         <span class="font-size-textfield work-sans-textfield">
           <div data-translate="textfield_2_p_1">
@@ -78,6 +81,7 @@
             From the city of Buenos Aires, where we raise our steers, to some of the most
             important slaughterhouses in the region in Argentina.
           </div>
+          <br>
           <div data-translate="textfield_2_p_2">
             With our commitment to culinary perfection and unwavering dedication to customer
             satisfaction, we invite you to experience the unrivaled taste of Argentina's finest beef,
@@ -87,7 +91,7 @@
       </div>
     </div>
     
-    <div class="section background-image-4"> <!-- Section 4 -->
+    <div class="section background-image-4">
       <div class="content-box three">
         <span class="font-size-textfield work-sans-textfield" data-translate="textfield_3">
           At Pampa Norte Argentine Beef, we offer the finest quality fresh premium
@@ -99,7 +103,7 @@
       </div>
     </div>
 
-    <div class="section background-image-5"> <!-- Section 5-->
+    <div class="section background-image-5">
       <div class="content-box four">
         <span class="font-size-textfield work-sans-textfield" data-translate="textfield_4">
           Moreover, we provide the convenience of weekly air-refrigerated shipments, allowing you to consistently replenish your
@@ -111,7 +115,7 @@
       </div>
     </div>
     
-    <div class="section background-image-6"> <!-- Sección 6-->
+    <div class="section background-image-6">
       <div class="logo_left_side">
         <img src="images/logos/BATC_Logo_No_Background.png" class="batc_logo" alt="Logo">
       </div>
@@ -128,26 +132,58 @@
       </div>
     </div>
 
-    <div class="section background-image-7"> <!-- Section 7 -->
+    <div class="section background-image-7">
 
-      <div class="meat_1">
-
+      <div class="before_footer">
+        <div>
+          <div class="meat_1">
+            <img src="/images/fridge/meat-1.jpg" alt="meat-1">
+          </div>  
+        </div>
+        <div class="groups">
+          <div class="seals_group">
+            <div class="seals_1">
+              <img src="/images/seals/seals-1.png" alt="seals-1">
+            </div>
+            <div class="seals_2">
+              <img src="/images/seals/seals-2.png" alt="seals-2">
+            </div>
+          </div>
+          <div class="fridge_group">
+            <div class="fridge_1">
+              <img src="/images/fridge/fridge-1.jpg" alt="fridge-1">
+            </div>
+            <div class="fridge_2">
+              <img src="/images/fridge/fridge-2.jpg" alt="fridge-2">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="meat_2">
+            <img src="/images/fridge/meat-2.jpg" alt="meat-2">
+          </div>
+        </div>
       </div>
-      <div class="">
 
+      <div class="content-box six"> <!-- TRADUCIR -->
+        <span class="font-size-textfield work-sans-textfield">
+          <div data-translate="textfield_6_p_1">We take pride in production the finest beef, nurtured and raised
+            on the fertile soils of the renowned Argentinean Pampas. Unquestionably, the Aberdeen Angus breed
+            stands apart, celebrated for its exceptional beef quality that has captivated the discerning palates
+            of connoisseurs worldwide.
+          </div>
+          <br>
+          <div data-translate="textfield_6_p_2">Distinguishing ourselves as one of the few vertically integrated 
+            companies in the region, we meticulously manage every stage of the production chain, ensuring 
+            uncompromising quality from our ranches to your table. With an unwavering commitment to excellence, 
+            we oversee every detail, ensuring our beef is antibiotics and growth hormones free.
+          </div>
+        </span>
       </div>
-      <div class="">
 
-      </div>
-      <div class="">
-
-      </div>
-      <div class="">
-
-      </div>
     </div>
 
-    <div class="section background-image-8"> <!-- Sección 8-->
+    <div class="section background-image-8">
       <div class="footer">
         <div class="logo_left_side alt">
           <img src="images/logos/PNAG_Logo.jpg" class="pnag_logo alt" alt="Logo">
@@ -161,12 +197,12 @@
         <div class="contact_box left work-sans-textfield">
           <div class="contact_text" data-translate="contact">Contact Us</div>
           <div>info@PampaNorteArBeef.com</div>
-          <div>CAN: +1 647-244-2592</div>
+          <div id="pn_phone_number">CAN: +1 647-244-2592</div>
         </div>
         <div class="contact_box right work-sans-textfield">
           <div class="contact_text" data-translate="contact">Contact Us</div>
           <div>contact@blackatco.com</div>
-          <div>ARG: +54 9 11-4992-4157</div>
+          <div id="ba_phone_number">ARG: +54 9 11-4992-4157</div>
         </div>
       </div>
     </div>

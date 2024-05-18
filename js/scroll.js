@@ -222,10 +222,15 @@ $(document).keyup(function (e) {
 });
 
 
-const PN = document.getElementById("phone_number")
+const BlackAngusPN = document.getElementById("ba_phone_number")
+const PampaNortePN = document.getElementById("pn_phone_number")
 
-PN.addEventListener("click", () => {
+BlackAngusPN.addEventListener("click", () => {
     window.open(`https://wa.me/${5491149924157}/`)
+})
+
+PampaNortePN.addEventListener("click", () => {
+    window.open(`https://wa.me/${16472442592}/`)
 })
 
 
