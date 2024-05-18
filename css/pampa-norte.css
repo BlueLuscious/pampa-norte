@@ -191,7 +191,9 @@
         width: 100%;
     }
 }
-
+.contact_item {
+    font-weight:600;
+}
 .contact {
     position: absolute;
     left: 5%;
