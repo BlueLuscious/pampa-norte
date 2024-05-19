@@ -198,13 +198,13 @@
         }
 
         .pnag_logo.alt {
-            width: 175px;
-            height: 175px;
+            width: auto;
+            height: 145px;
         }
 
         .batc_logo.alt {
-            width: 225px;
-            height: 175px;
+            width: auto;
+            height: 145px;
         }
 
         .background-image-5 {
@@ -214,7 +214,7 @@
         .contact {
             position: absolute;
             left: 5%;
-            bottom: 2%;
+            bottom: 10%;
             display: flex;
             flex-direction: column;
             width: 90%;
