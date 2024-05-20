@@ -226,15 +226,16 @@
             }
         }
 
+        .font-size-textfield {
+            font-size: 0.8rem;
+        }
+
         .section.background-image-7 {
-            gap: 1.5rem;
+            gap: 1rem;
         }
     }
 
     @media (max-width: 376px) {
-        .font-size-textfield {
-            font-size: 0.8rem;
-        }
 
         .section.background-image-7 {
             gap: 0.2rem;
