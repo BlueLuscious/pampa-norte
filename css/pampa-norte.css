@@ -130,22 +130,24 @@
     }
 
     &.six {
-        right: 7%;
-        bottom: 3%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 90%;
     }
 }
 
 /* Footer */
 .before_footer {
-    position: absolute;
-    left: 0%;
-    top: 3%;
+    position: relative;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-top: 2rem;
 
     & .meat_group {
         display: flex;
@@ -165,7 +167,6 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 2.5rem
         }
     }
 }
@@ -213,13 +214,16 @@ a .batc_logo:hover {
         width: 100%;
     }
 }
+
 .link_blackangus{
     cursor: pointer;
     font-weight: 600;
 }
+
 .contact_item {
     font-weight:600;
 }
+
 .contact {
     position: absolute;
     left: 5%;
@@ -252,4 +256,11 @@ a .batc_logo:hover {
     & .contact_text{
         font-weight: bold;
     }
+}
+
+/* Sections */
+.section.background-image-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
